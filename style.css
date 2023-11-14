@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    color: #222;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mobile-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main {
+    background: #fff;
+    border-radius: 20px;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 25px 45px;
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px rgb(222, 222, 250);
+    backdrop-filter: blur(21px);
+}
+
+.title {
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.result {
+
+    margin: 20px 0;
+}
+
+.result-title {
+    color: #555;
+    font-size: 1rem;
+}
+
+.result-value {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    transition: all .45s ease;
+
+}
+
+label {
+    color: #555;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border: 1px solid #555;
+
+}
+
+.degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+option {
+    background-color: lightblue;
+    color: black;
+    padding-top: 8px;
+    border: none;
+}
+
+.convert-btn {
+    background: rgb(41, 112, 243);
+    border: none;
+    border-radius: 10px;
+    color: #f6f6f6;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+    font-size: 1.3rem;
+}
+
+#convert-btn:hover {
+    background: rgb(41, 112, 243);
+}
+
+
+
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
+}
+
+.loading {
+    display: none;
+}
